@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: hsl(216, 50%, 16%);
+     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 30vh;
+    width: 20%;
+    background-color: hsl(216, 50%, 16%);
+    box-shadow: 0 ,  0 30px;
+    border-radius: 15px;
+}
+.equilibrium{
+    border-radius: 10px;
+}

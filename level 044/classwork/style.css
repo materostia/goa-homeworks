@@ -1,0 +1,12 @@
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+ohio{
+    width: 100px;
+    height: 100px;
+    background-color: magenta;
+    transition: width 2s, height 0.5s ;
+}

@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.cont1{
+    width: 250px;
+    height: 370px;
+    background-color: blue;
+    padding: 20px;
+}
+
+.cont2{
+    width: 250px;
+    height: 370px;
+    background-color: red;
+    padding: 20px;
+}
+
+.cont3{
+    width: 250px;
+    height: 370px;
+    background-color: green;
+    padding: 20px;
+}

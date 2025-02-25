@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    animation-name: goRight;
+    animation-duration: 5s;
+}
+body {
+    display: flex;
+    height: 100hv;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes goRight{
+    from{
+        color: red;
+
+    }
+
+}

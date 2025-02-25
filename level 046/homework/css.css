@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    animation-name: colorChange;
+    animation-duration: 10s;
+}
+body {
+    display: flex;
+    height: 100hv;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes colorChange{
+    0%{
+        background-color: blue;
+    }
+   25%{
+    background-color: darkblue;
+   }
+   50%{
+    background-color: cornflowerblue;
+   }
+   75%{
+    background-color: dodgerblue;
+   }
+   100%{
+    background-color: lightskyblue;
+   }
+}
