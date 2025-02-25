@@ -1,0 +1,2 @@
+print("mate")
+print("rostiashvili")

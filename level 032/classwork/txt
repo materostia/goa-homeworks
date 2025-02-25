@@ -1,0 +1,4 @@
+# 1) def abbrev_name(name):
+#     sam_harris = s.h
+#     patrick_feeney = p.f
+#     return name

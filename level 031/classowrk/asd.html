@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Selectors</title>
+    <style>
+        a {
+            color: blue;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        a:link {
+            color: green; /* როცა ლინკი ჯერ არ არის დაკლიკული /
+        }
+        a:visited {
+            color: purple; / როცა ლინკი უკვე დაკლიკებულია /
+        }
+        a:hover {
+            color: red; / როცა მაუსით გადაუყვებით /
+            text-decoration: underline;
+        }
+        a:active {
+            color: orange; / როცა დაკლიკავთ */
+        }
+    </style>
+</head>
+<body>
+
+    <h2>ლინკი და Pseudo Selectors</h2>
+    <a href="https://www.google.com/" target="_blank">გადადით Google-ზე</a>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Hover Effect</title>
+    <style>
+        button {
+            background-color: blue;
+            color: white;
+            padding: 10px 20px;
+            font-size: 18px;
+            border: none;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        button:hover {
+            background-color: darkblue;
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>ღილაკი და Hover ეფექტი</h2>
+    <button>დააჭირე</button>
+
+</body>
+</html>

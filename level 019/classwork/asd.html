@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook რეგისტრაცია</title>
+</head>
+<body>
+
+    <h2>დარეგისტრირდით Facebook-ზე</h2>
+
+    <form>
+        <!-- სახელი და გვარი -->
+        <input type="text" placeholder="სახელი" name="first-name" required>
+        <input type="text" placeholder="გვარი" name="last-name" required><br><br>
+
+        <!-- მეილი ან ტელეფონის ნომერი -->
+        <input type="email" placeholder="მეილი ან ტელეფონი" name="email" required><br><br>
+
+        <!-- პაროლი -->
+        <input type="password" placeholder="ახალი პაროლი" name="password" required><br><br>
+
+        <!-- დაბადების თარიღი -->
+        <label>დაბადების თარიღი:</label>
+        <input type="date" name="birthdate" required><br><br>
+
+        <!-- სქესი -->
+        <label>სქესი:</label>
+        <input type="radio" name="gender" value="male"> მამაკაცი
+        <input type="radio" name="gender" value="female"> ქალი
+        <input type="radio" name="gender" value="other"> სხვა<br><br>
+
+        <!-- რეგისტრაციის ღილაკი -->
+        <input type="submit" value="დარეგისტრირება">
+    </form>
+
+</body>
+</html>
