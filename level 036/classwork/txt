@@ -1,0 +1,3 @@
+def rps(p1, p2):
+    stri2 = "scissors", "paper" --> "Player 1 won!" "scissors", "rock" --> "Player 2 won!" "scissors", "rock" --> "Player 2 won!"
+"paper", "paper" --> "Draw!"
